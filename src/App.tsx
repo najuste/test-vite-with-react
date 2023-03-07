@@ -1,7 +1,8 @@
+import React from 'react'
 import './App.css'
 import HeroHeader from './components/HeroHeader/HeroHeader'
 
-function App() {
+function App (): React.ReactElement {
   return (
     <div className="App">
       <HeroHeader />
